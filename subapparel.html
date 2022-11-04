@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            position: relative;
+        }
+
+        /*메인메뉴버튼*/
+        #logo {
+            position: fixed;
+            float: left;
+            top: 20px;
+            left: 300px;
+
+        }
+
+        #h_menu {
+            position: fixed;
+            top: 20px;
+            right: 300px;
+            float: right;
+
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        #h_menu li {
+
+            font-family: 'Monster Bites';
+            src: url(./fonts/Monster\ Bites.otf);
+            font-size: 30px;
+            color: #FFFFFF;
+
+            display: inline;
+        }
+
+        .menus {
+            margin: 0 20px 0 20px;
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        a:hover {
+            color: rgb(255, 242, 0);
+        }
+
+        /*메인메뉴버튼 끝*/
+
+
+
+        /*서브메뉴*/
+        #sub_menu {
+            clear: both;
+            text-align: center;
+            margin-top: 250px;
+            /*border: solid 1px ;*/
+        }
+
+        #sub_menu li {
+
+
+            src: url(./fonts/Monster\ Bites.otf);
+            font-size: 25px;
+            color: #FFFFFF;
+
+            display: inline;
+
+        }
+
+        .sub {
+            margin: 0 40px 0 40px;
+        }
+
+        /*서브메뉴 끝*/
+
+
+
+        /*푸터*/
+        #wrap {
+            min-height: 100vh;
+            position: relative;
+            width: 100%;
+            
+
+        }
+
+        footer {
+            width: 100%;
+            height: 300px;
+            bottom: 0px;
+            position: absolute;
+            background-image: url(./img/grass.png);
+        }
+        #context{
+            margin-left:300px;
+            padding-top:200px;
+            color:#a6dbff
+
+        }
+
+        html,body{
+            margin: 0px;
+            padding: 0px;
+        }
+        /*푸터 끝*/
+        section{
+            margin-top:100px;
+            /*margin-left:370px;*/
+            margin-bottom:0px;
+            padding-bottom: 300px;
+        }
+    </style>
+</head>
+<body bgcolor="#00A3FF">
+    <div id="wrap">
+        <nav>
+            <div id="logo">
+                <a href="index.html"><img src='./img/logo.png' height="50"></a>
+            </div>
+            <ul id="h_menu">
+                <li class="menus"><a href='damo.html'>damo?</a></li>
+                <li class="menus"><a href='artwork.html'>art work</a></li>
+                <li class="menus"><a href='shop.html'>shop</a></li>
+                <li class="menus"><a href='others.html'>others</a></li>
+                <li class="menus"><a href='login.html'>login</a></li>
+            </ul>
+            <center><ul id="sub_menu">
+                <li class="sub"><a href='shop.html'>craft</a></li>
+                <li class="sub"><a href='subapparel.html'>apparel</a></li>
+            </ul></center>
+            <section>
+            <center>
+            <img src='./img/28.png' width="500" title="size M
+            body length 58cm / chest width 44cm / sleeve length 12cm">
+            <img src='./img/29.png' width="500" title="body length 68cm / chest width 48cm / sleeve length 61cm">
+            <img src='./img/30.png' width="500" title="size S
+            body length 66cm / chest width 49cm / sleeve length 19cm">
+            <br>
+            <img src='./img/31.jpg' width="500" title="size S
+            body length 56cm / chest width 42cm / sleeve length 11cm">
+            <img src='./img/32.jpg' width="500" title="Body length 78cm / chest width 53cm / sleeve length 67cm">
+            <img src='./img/33.jpg' width="500" title="Body length 76cm / chest width 54cm / sleeve length 62cm">
+        </section>
+        </center>
+        </nav>
+        <footer>
+            <div id=context>
+            <p>Damo | 작가: damo | 사이트 제작자: 허서아</p>
+            <p1>전화:010-xxxx-xxxx | 이메일:damo-@naver.com
+                | 주소:경기도 의왕시 내손동 768계원예술대학로
+
+            </p1></div>
+        </footer>
+</body>
+</html>
